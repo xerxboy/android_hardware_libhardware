@@ -100,10 +100,8 @@ enum {
      * Added in HWC_DEVICE_API_VERSION_1_1. */
     HWC_FRAMEBUFFER_TARGET = 3,
 
-#ifdef QCOM_HARDWARE
     /* this layer will be handled in the HWC, using a blit engine */
     HWC_BLIT = 4,
-#endif
 };
 
 /*
